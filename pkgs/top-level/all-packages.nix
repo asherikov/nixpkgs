@@ -40001,4 +40001,6 @@ with pkgs;
   zf = callPackage ../tools/misc/zf { };
 
   isolate = callPackage ../tools/security/isolate { };
+
+  qpmad = callPackage ../development/libraries/science/math/qpmad { };
 }
